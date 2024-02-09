@@ -1,0 +1,3 @@
+When decreasing the time spent in the critical section and the time after the critical section. When testing, decreasing time spent after the critical sections from 300 ms to 30 ms decreases the latency almost 10 times on average. Similar results occured when changing the time spent after the critical section. 
+
+There were some cases of deadlocks. There was a case where Client 2 received grants from Server 1, 2, 6, 7, but Client 5 received grants from 3, 4, and 5. Neither of these grants satisfies the quorum requirement and thus there was a deadlock. However these cases were rare.

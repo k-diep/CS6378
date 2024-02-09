@@ -1,2 +1,2 @@
 # CS6378
- Advanced Operating System
+Advanced Operating System. Concurrent processing, inter-process communication, process synchronization, deadlocks, introduction to queuing theory and operational analysis, topics in distributed systems and algorithms, checkpointing, recovery, multiprocessor operating systems.
